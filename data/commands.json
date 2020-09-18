@@ -1,0 +1,146 @@
+var commands = [
+	{
+		"title": "Raidable NPC Bases",
+		"content": "Raidable NPC bases will automatically spawn in. On the map the Red circle is hard, Yellow is medium and Green is easy. You can also spawn your own raids. /buyraid"
+	},
+	{
+		"title": "Base Elevators/Lifts",
+		"content": "ou can build your very own base elevators. Look at a foundation you own and type /newlift - If your lift gets stuck, look at it and type /liftaid"
+	},
+	{
+		"title": "/s",
+		"content": "Shop! earn RP from killing animals, looting barrels, killing zombies, helicopter selling items etc. Then spend your hard earned RP in the /s store"
+	},
+	{
+		"title": "Planting Trees",
+		"content": "Attention role players! Make your compound pretty by planting trees. Type /tree for a list of available trees. Tree's cost 50RP each."
+	},
+	{
+		"title": "Buried Treasure",
+		"content": "You can buy maps to buried treasures from the /s store"
+	},
+	{
+		"title": "Fishing",
+		"content": "Turn a spear into a fishing rod by typing /makepole - Then left-click on the water."
+	},
+	{
+		"title": "Bank",
+		"content": "Visit the NPC banker at /warp to bank - You have 4 slots. Bank available 24 hours after wipe."
+	},
+	{
+		"title": "/codelock",
+		"content": "Automatically place a lock, or auto place a codelock when you place the door. (Advanced settings Donator only)"
+	},
+	{
+		"title": "/ad",
+		"content": "Autodoors. You can set your doors to close after a specific time or turn off auto door altogether. ad 10 would have a 10 second delay and /ad turns it off."
+	},
+	{
+		"title": "/makepole",
+		"content": "Go fish a fish and make a rod with /makepole. Must be holding a spear. You will catch more fish wearing a boonie hat."
+	},
+	{
+		"title": "/backpack",
+		"content": "Every player has additional storage in their /backpack. Donators have more slots. Access with /backpack (you can bind with: bind b backpack.open)"
+	},
+	{
+		"title": "/warp",
+		"content": "Type /warp to see the current community towns players have built."
+	},
+	{
+		"title": "/tpr",
+		"content": "Teleport to another player (with their permission) type /tpr theirname /tpc to cancel."
+	},
+	{
+		"title": "/home",
+		"content": "Set a home inside your base. Type /sethome basename Then to get back there type /home basename - /removehome name"
+	},
+	{
+		"title": "/pm",
+		"content": "Send a private message to another player, Type /pm theirname hi"
+	},
+	{
+		"title": "/q",
+		"content": "There are a number of quests to choose from. type /q to open the menu."
+	},
+	{
+		"title": "/players",
+		"content": "See who is online"
+	},
+	{
+		"title": "/purge",
+		"content": "When is the next purge? Type /purge for details"
+	},
+	{
+		"title": "/ranks",
+		"content": "See how many hours you have until your next rank!"
+	},
+	{
+		"title": "/wipe",
+		"content": "When is the next wipe? Type /wipe for details /remove Made a mistake building your base? Easy. Type /remove and click."
+	},
+	{
+		"title": "/rustnet",
+		"content": "Type /rustnet for more details on security cameras."
+	},
+	{
+		"title": "/stats",
+		"content": "Have a look at the server wide stats for this wipe."
+	},
+	{
+		"title": "/ticket",
+		"content": "Send a message to the admins, type /ticket hi prescot is hacking"
+	},
+	{
+		"title": "/sdoor",
+		"content": "Sick of your doors opening outwards? Look at them and type /sdoor and they'll slide."
+	},
+	{
+		"title": "/trade",
+		"content": "Trade some gear to a friend. type /trade theirname"
+	},
+	{
+		"title": "/licence",
+		"content": "Buy a boat, minicopter or car. Use /licence"
+	},
+	{
+		"title": "/vote",
+		"content": "Vote for us on rust-servers.net for daily rewards!"
+	},
+	{
+		"title": "/craft.lockon",
+		"content": "Donators can craft lock-on rockets to take the plane down. /craft.lockon for more details."
+	},
+	{
+		"title": "/mymini",
+		"content": "Donators can spawn one free Minicopter per day."
+	},
+	{
+		"title": "/recycler.craft",
+		"content": "Craft a recycler for your base!"
+	},
+	{
+		"title": "/bgrade",
+		"content": "Automatically build in the grade that you want! /bgrade 1 is wood, /bgrade 2 is stone, 3-4 frags - high quality."
+	},
+	{
+		"title": "/sil",
+		"content": "Paste in any picture from the web! Look closely at the picture and type /sil https://i.imgur.com/VC2rHQc.png (notice it ends in .png - it must end in the file name or it will not work. - .jpg work as well)"
+	},
+	{
+		"title": "/neon",
+		"content": "Create awesome neon signs! /neon for more details"
+	},
+	{
+		"title": "/colours",
+		"content": "Use /colours to see a list of options. /colour <hexcode> or /colour clear to remove."
+	},
+	{
+		"title": "/otp",
+		"content": "Teleport to the Outpost."
+	},
+	{
+		"title": "/btp",
+		"content": "Teleport to Bandit Town. "
+	}
+];

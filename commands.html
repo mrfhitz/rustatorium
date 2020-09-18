@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rustatorium 5x PVE/PVP</title>
+	<meta name="description" content="">
+	<meta property="og:title" content="Rustatorium 5x PVE/PVP">
+	<meta property="og:description" content="">
+	<meta property="og:url" content="https://rustedisolation.com/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary_large_image">
+	<link rel="canonical" href="https://rustedisolation.com/">
+
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script type="text/javascript" src="data/commands.json"></script>
+</head>
+<body>
+	<div class="header">
+		<h1>RUSTATORIUM</h1>
+		<h2>5x PVE/PVP</h2>
+	</div>
+
+	<ul class="menu full-menu">
+		<li><a href="#">IN-GAME COMMANDS</a></li>
+		<li><a href="https://discordapp.com/invite/5qPnqdW">DISCORD INVITE</a></li>
+		<li><a href="steam://connect/45.35.205.154:28015">CONNECT TO SERVER</a></li>
+		<li><a href="https://app.gpay.io/store/us/7583">DONATOR RANK STORE</a></li>
+	</ul>
+
+	<div id="content-wrapper"></div>
+</div>
+
+<script type="text/javascript">
+	var html = "<h3>Rusted Isolation Server Commands</h3>";
+
+	for (var i = commands.length - 1; i >= 0; i--) {
+		html += "<p><strong>" + commands[i].title + "</strong></p>";
+		html += "<p>" + commands[i].content + "</p>";
+		html += "<br>";
+	}
+
+	document.getElementById("content-wrapper").innerHTML = html;
+</script>
+
+</body>
+</html>
